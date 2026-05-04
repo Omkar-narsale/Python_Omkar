@@ -105,7 +105,13 @@
 # print(f"The number {target} appears {count} times")
 
 #18.Remove All Occurrences of a Specific Item
-l=[5, 20, 15, 20, 25, 50, 20]
-target=20
-for i in l:
-    
+# l = [5, 20, 15, 20, 25, 50, 20]
+# target = 20
+# while target in l:
+#     l.remove(target)
+# print(l)
+
+# #19. Remove Empty Strings from a List of Strings
+# Names=["Mike", "", "Emma", "Kelly", "", "Brad"]
+# cleaned_names=list(filter(None,Names))
+# print(f'Cleaned Names:{cleaned_names}')
